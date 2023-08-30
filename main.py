@@ -19,7 +19,7 @@ color_dict = {
 }
 
 # Create dataframe from dictionary
-# new_data = pandas.DataFrame(color_dict)
+new_data = pandas.DataFrame(color_dict)
 
 # Create new CSV file
-# new_data.to_csv("squirrel_colors.csv")
+new_data.to_csv("squirrel_colors.csv")
